@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: orange;
+    height: 80px;
+    width: 100%;
+    padding:10px ;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serifs;
+    color: white;
+
+}
+.barra{
+    float: right;
+    text-decoration: none;
+    size: 20px;
+}
+.logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    float: left;
+}
+.logo span{
+    color: black
+}
+.barra ul li{
+    list-style: none;
+  display: inline-block;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 5px;
+    background-color: orange;
+}
+.galeria{
+    width: 100%;
+    height: auto;
+    background-color:orange;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8,300px);
+    padding: 10px;
+    grid-gap: 20px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+footer a{
+    color: springgreen;
+    text-decoration: none;
+    font-size:20px ;
+    text-align: end;
+    letter-spacing: 15px;}
+
+.item{
+    border: 5px solid black;
+    background-size:cover;
+    background-position:center;
+
+}
+.item1{
+    background-image: url(img/feet-1840619_1280.jpg);
+}
+.item2{
+    background-image: url(img/guy-2610013_640.jpg);
+}
+.item3{
+    background-image: url(img/hammock-2239788_1280.jpg);
+}
+.item4{
+    background-image: url(img/nike-5126389_1280.jpg);
+}
+.item5{
+    background-image: url(img/shoes-3850175_1280.jpg);
+}
+.item6{
+    background-image: url(img/sneakers-2852607_1280.jpg);
+}
+.item7{
+    background-image: url(img/puma-1838735_1280.jpg);
+}
+.item8{
+    background-image: url(img/shoes-3952048_1280.jpg);
+    
+}
+footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff; 
+    padding: 100px;
+
+}
+@media only screen and (min-width: 321px){
+    .galeria {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+     }
+}
+h3{
+    text-align: center;
+    text-shadow: 20px;
+    background-color: orange;
+    font-family: monospace;
+    font-size: xx-large;
+    }
+    p{
+        background-color: rgba(57, 144, 48, 0.576);
+        font-size: larger;
+        border: 5px solid black;
+        border-radius: 20px;
+         text-align: left;
+         text-decoration: none;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+        }
+
+        
