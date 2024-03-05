@@ -2,52 +2,76 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #cacfd2
-
+    background-color: #cacfd2;
 }
+
 .logo{
     font-size: 25px;
     text-align: left;
     background-color: #cacfd2 ;
     color: white;
 }
-.barra{
+
+.barra {
     text-align: right;
     font-size: 15px;
     background-color: blue;
     color: white;
+    margin-bottom: 0;
+    padding-bottom: 0; 
+}
 
-    
+.barra ul {
+    margin-bottom: 0; 
+    padding-bottom: 0; 
 }
-a{
-    text-decoration: none;
-    color: white;
-}
-.barra ul li{
+
+.barra ul li {
     display: inline-block;
     list-style: none;
     text-decoration: none;
-    color: black;
+    color: white;
+    margin-bottom: 0; 
+    padding-bottom: 0; 
 }
-.leer{
+
+.img-contenedor{
     overflow: hidden;
 }
-.leer img{
+
+.img-contenedor img{
     transition: all 2s;
 }
+
 .acercar:hover img{
     transform: scale(1,5);
 }
+
 footer{
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color:grey;
+    color: black;
     padding: 45px;
-
 }
+
 footer a{
-    color: springgreen;
+    color: black;
     text-decoration: none;
     font-size:20px ;
     text-align: end;
-    letter-spacing: 15px;}
+    padding: 10px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.linksContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
